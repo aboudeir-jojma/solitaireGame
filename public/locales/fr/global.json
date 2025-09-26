@@ -8,7 +8,8 @@
       "language": "Langue",
       "english": "Anglais",
       "french": "Français"
-    }
+    },
+    "playNow": "Jouer maintenant"
   },
   "about": {
     "title": "Jouez à Spider Solitaire en ligne gratuitement !",
@@ -232,5 +233,19 @@
   "home": {
     "title": "Bienvenue à Spider Solitaire",
     "description": "Jouez au jeu de cartes classique en ligne gratuitement."
+  },
+  "games": {
+    "klondike": {
+      "title": "Klondike Solitaire",
+      "description": "La version classique du Solitaire où vous construisez des piles de fond par couleur de l'As au Roi."
+    },
+    "spider": {
+      "title": "Spider Solitaire",
+      "description": "Un jeu stimulant où vous arrangez les cartes en ordre descendant, en construisant des séquences par couleur."
+    },
+    "freecell": {
+      "title": "FreeCell Solitaire",
+      "description": "Utilisez quatre cellules libres pour déplacer stratégiquement les cartes et construire des piles de fond."
+    }
   }
 }

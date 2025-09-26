@@ -1,11 +1,20 @@
-# TODO: Implement Browser Language Detection for i18n
+# TODO: Add Featured Games Section to Home Page
 
 ## Steps from Approved Plan
 
-- [x] Update `app/i18n.ts` to include LanguageDetector import, add it to the i18n chain, and configure detection options (order: ['navigator'], supported languages: ['en', 'fr'], no caching, lng: undefined).
+- [x] Update public/locales/en/global.json: Add i18n keys for three game cards (e.g., games.klondike.title, games.klondike.description; similarly for spider and freecell; common.playNow for button).
 
-- [x] Update `app/layout.tsx` to make the `<html lang>` attribute dynamic based on the detected language from i18n (introduce a client-side wrapper to set lang after detection).
+- [x] Update public/locales/fr/global.json: Add corresponding French translations.
 
-- [x] Test the implementation: Run `npm run dev`, verify language detection in browsers set to French (should load 'fr' translations) and English ('en'). Check that correct locale files are loaded (e.g., via Network tab) and no hydration errors occur.
+- [x] Update app/page.tsx:
+  - Import { useTranslation } from 'react-i18next' (corrected for i18next setup).
+  - Change main className to "min-h-screen w-full bg-gray-100".
+  - Add section after the game div: <section className="bg-green-600 py-12 px-4"> with grid of three cards, each with img, h3 with t('games.klondike.title'), p with description, Link button.
+  - Adjust the game container to not take full screen height, e.g., "flex-1 max-w-5xl mx-auto p-4".
+  - Use existing logo.png or card images for card visuals.
 
-- [x] Clean up: Remove or archive this TODO.md once complete.
+- [ ] Run `npm run dev` to start the development server and test locally.
+
+- [ ] Verify with browser: Launch http://localhost:3000, check scrolling to green section, card rendering, i18n switching (if applicable), and button links.
+
+- [ ] Clean up: Mark steps complete and remove or archive this TODO.md once the task is verified.

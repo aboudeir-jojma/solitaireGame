@@ -8,7 +8,8 @@
       "language": "Language",
       "english": "English",
       "french": "French"
-    }
+    },
+    "playNow": "Play Now"
   },
   "about": {
     "title": "Play Spider Solitaire Online for Free!",
@@ -232,5 +233,19 @@
   "home": {
     "title": "Welcome to Spider Solitaire",
     "description": "Play the classic card game online for free."
+  },
+  "games": {
+    "klondike": {
+      "title": "Klondike Solitaire",
+      "description": "The classic version of Solitaire where you build foundation piles by suit from Ace to King."
+    },
+    "spider": {
+      "title": "Spider Solitaire",
+      "description": "A challenging game where you arrange cards in descending order, building sequences by suit."
+    },
+    "freecell": {
+      "title": "FreeCell Solitaire",
+      "description": "Use four free cells to strategically move cards and build foundation piles."
+    }
   }
 }
