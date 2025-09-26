@@ -232,7 +232,20 @@
   },
   "home": {
     "title": "Welcome to Spider Solitaire",
-    "description": "Play the classic card game online for free."
+    "description": "Play the classic card game online for free.",
+    "section2": {
+      "title": "Play Spider Solitaire Online for Free!",
+      "description": "Discover the captivating world of <strong>Spider Solitaire</strong>, a card game that mixes strategy, patience and fun. Arrange cards from King to Ace to create perfect sequences and tackle increasingly exciting challenges.",
+      "whyTitle": "Why Choose Spider Solitaire?",
+      "whyList": [
+        "🕷️ A classic game that stimulates memory and concentration.",
+        "🎮 Simple controls: click, drag, deal and undo.",
+        "📱 Compatible with computer, tablet and mobile.",
+        "🔓 Unlocked version: play wherever you want, without downloads.",
+        "✨ Colorful graphics, smooth animations and progressive challenges."
+      ],
+      "playNow": "Play Now"
+    }
   },
   "games": {
     "klondike": {

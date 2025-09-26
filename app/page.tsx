@@ -119,15 +119,11 @@ export default function Home() {
   <div className="max-w-5xl mx-auto">
     {/* Titre principal */}
     <h2 className="text-4xl font-extrabold text-gray-900 text-center mb-10">
-      Jouez à Spider Solitaire en ligne gratuitement !
+      {t("home.section2.title")}
     </h2>
 
     {/* Description d'intro */}
-    <p className="text-lg text-gray-700 leading-relaxed text-center max-w-3xl mx-auto mb-12">
-      Découvrez l’univers captivant de <strong>Spider Solitaire</strong>, un jeu de cartes
-      qui mélange stratégie, patience et plaisir. Disposez les cartes du Roi à l’As pour former
-      des suites parfaites et relever des défis de plus en plus passionnants.
-    </p>
+    <p className="text-lg text-gray-700 leading-relaxed text-center max-w-3xl mx-auto mb-12" dangerouslySetInnerHTML={{ __html: t("home.section2.description") }}></p>
 
     {/* Grid infos principales */}
     <div className="grid md:grid-cols-2 gap-10 items-center">
@@ -143,20 +139,18 @@ export default function Home() {
       {/* Texte côté droit */}
       <div>
         <h3 className="text-2xl font-semibold text-gray-800 mb-4">
-          Pourquoi choisir Spider Solitaire ?
+          {t("home.section2.whyTitle")}
         </h3>
         <ul className="space-y-4 text-gray-700 leading-relaxed">
-          <li>🕷️ Un jeu classique qui stimule la mémoire et la concentration.</li>
-          <li>🎮 Commandes simples : cliquez, glissez, distribuez et rejouez.</li>
-          <li>📱 Compatible avec ordinateur, tablette et mobile.</li>
-          <li>🔓 Version débloquée : jouez où vous voulez, sans téléchargement.</li>
-          <li>✨ Graphismes colorés, animations fluides et défis progressifs.</li>
+          {Object.values(t("home.section2.whyList", { returnObjects: true })).map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
         </ul>
         <Link
           href="/"
           className="mt-6 inline-block bg-green-600 text-white px-6 py-3 rounded-lg shadow hover:bg-green-700 transition-all duration-300"
         >
-          Jouer maintenant
+          {t("home.section2.playNow")}
         </Link>
       </div>
     </div>

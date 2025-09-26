@@ -1,5 +1,7 @@
-# Footer Addition Task
+# TODO: Implement Language Switching in Home Page and Footer
 
-- [x] Create app/components/Footer.tsx with logo, links to privacy/terms/about, and social network icons
-- [x] Update app/layout.tsx to import and render Footer component
-- [ ] Test footer rendering by running dev server and checking pages
+## Tasks
+- [x] Add translation keys for the second section in home page to en and fr global.json
+- [x] Update app/page.tsx to use translations for the second section
+- [x] Add language switcher to Footer component
+- [ ] Test language switching functionality

@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
-import { Info, Shield, FileText, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
+import { Info, Shield, FileText, Facebook, Twitter, Instagram, Linkedin, Globe } from "lucide-react";
+import { i18n } from '../i18n';
 
 export default function Footer() {
   const { t } = useTranslation();
@@ -67,6 +68,8 @@ export default function Footer() {
             })}
           </div>
         </div>
+
+       
       </div>
     </footer>
   );

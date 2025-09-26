@@ -232,7 +232,20 @@
   },
   "home": {
     "title": "Bienvenue à Spider Solitaire",
-    "description": "Jouez au jeu de cartes classique en ligne gratuitement."
+    "description": "Jouez au jeu de cartes classique en ligne gratuitement.",
+    "section2": {
+      "title": "Jouez à Spider Solitaire en ligne gratuitement !",
+      "description": "Découvrez l’univers captivant de <strong>Spider Solitaire</strong>, un jeu de cartes qui mélange stratégie, patience et plaisir. Disposez les cartes du Roi à l’As pour former des suites parfaites et relever des défis de plus en plus passionnants.",
+      "whyTitle": "Pourquoi choisir Spider Solitaire ?",
+      "whyList": [
+        "🕷️ Un jeu classique qui stimule la mémoire et la concentration.",
+        "🎮 Commandes simples : cliquez, glissez, distribuez et rejouez.",
+        "📱 Compatible avec ordinateur, tablette et mobile.",
+        "🔓 Version débloquée : jouez où vous voulez, sans téléchargement.",
+        "✨ Graphismes colorés, animations fluides et défis progressifs."
+      ],
+      "playNow": "Jouer maintenant"
+    }
   },
   "games": {
     "klondike": {
