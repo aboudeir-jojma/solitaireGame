@@ -1,0 +1,236 @@
+{
+  "common": {
+    "nav": {
+      "about": "About",
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "home": "Home",
+      "language": "Language",
+      "english": "English",
+      "french": "French"
+    }
+  },
+  "about": {
+    "title": "Play Spider Solitaire Online for Free!",
+    "sections": {
+      "section1": {
+        "title": "Discover Spider Solitaire",
+        "content": "Discover the magic of Spider Solitaire, a fun card game you can play right in your browser. Arrange cards from King to Ace and create beautiful sequences, like a spider weaving its web."
+      },
+      "section2": {
+        "title": "An Engaging Experience",
+        "content": "Browse shuffled cards, plan your moves carefully, and enjoy the exciting moment when an entire sequence disappears. With simple clicks, playful animations, and sound effects, each level becomes a thrilling challenge."
+      },
+      "section3": {
+        "title": "Perfect for Kids",
+        "content": "Spider Solitaire is an excellent way for kids to stimulate their brain, relax after school, and have endless fun."
+      },
+      "section4": {
+        "title": "What is Spider Solitaire?",
+        "content": "Spider Solitaire is a game using two complete decks of cards. The goal is to create eight perfect piles from King to Ace. You start with ten columns and move cards to reveal hidden ones and form complete suits."
+      },
+      "section5": {
+        "title": "Strategy and Patience",
+        "content": "With simple drag-and-drop controls, kids can develop strategy and patience. Choosing which cards to reveal first and managing empty columns makes the challenge even more interesting."
+      },
+      "section6": {
+        "title": "Why Choose Spider Solitaire?",
+        "content": "Play Spider Solitaire for free, directly online, without downloads. The game features colorful illustrations, multiple modes, and helps improve memory and planning."
+      },
+      "section7": {
+        "title": "How to Play",
+        "content": "The goal is to create eight perfect sequences of cards from King to Ace in the same suit. Prepare the deck, move your cards, complete the suits, deal additional cards, and win the game!",
+        "content2": "Continue stacking and dealing until all eight suits are complete."
+      },
+      "section8": {
+        "title": "Tips for Young Champions",
+        "content": "Try to free an empty pile as early as possible. Focus on groups of the same suit and plan your moves ahead.",
+        "content2": "Look for low cards early, flip hidden piles, and move entire sequences when possible."
+      },
+      "section9": {
+        "title": "Simple Controls",
+        "content": "Click and drag cards, use arrows to navigate, press spacebar to deal new cards, and Z to undo a move."
+      },
+      "section10": {
+        "title": "Features",
+        "content": "Enjoy colorful cards, smooth animations, and sound effects. Levels get harder as you progress, helping to improve memory and strategy."
+      },
+      "section11": {
+        "title": "Unlocked Version",
+        "content": "Unlocked Spider Solitaire works in any browser, no downloads or passwords required. Perfect for playing at school, home, or the library."
+      },
+      "section12": {
+        "title": "Spider Solitaire Adventure",
+        "content": "Explore the world of Spider Solitaire online, no downloads needed. Organize cards from King to Ace, improve your concentration and problem-solving skills."
+      },
+      "section13": {
+        "title": "Platform Compatibility",
+        "content": "Spider Solitaire works on computers, tablets, and mobiles. The layout automatically adapts to any screen for a smooth and fast experience."
+      },
+      "section14": {
+        "title": "Discover Other Games",
+        "content": "If you love Spider Solitaire, try Jungle Stack, Magic Suit Match, Time Tower Cards, Pirate’s Treasure Deal, and Candy Kingdom Klondike. Each offers colorful cards, fun characters, and exciting challenges."
+      },
+      "section15": {
+        "title": "Frequently Asked Questions",
+        "questions": {
+          "q1": {
+            "question": "Do I need to install anything?",
+            "answer": "No, just visit our site with a browser and you can play immediately."
+          },
+          "q2": {
+            "question": "Can I play on phone or tablet?",
+            "answer": "Yes, Spider Solitaire works on smartphones, tablets, and computers."
+          },
+          "q3": {
+            "question": "Do I have to pay to play?",
+            "answer": "No, Spider Solitaire is completely free, with no fees or in-app purchases."
+          },
+          "q4": {
+            "question": "Is the game suitable for kids?",
+            "answer": "Yes, it's easy to learn for kids and also offers a stimulating challenge for older players."
+          },
+          "q5": {
+            "question": "How do I start a game?",
+            "answer": "Arrange the cards, stack them from King to Ace in each suit, and eliminate all piles to win."
+          }
+        }
+      }
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: September 25, 2025",
+    "intro": "Please read these terms and conditions carefully before using Our Service.",
+    "sections": {
+      "section1": {
+        "title": "Introduction",
+        "content1": "This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.",
+        "content2": "We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy."
+      },
+      "section2": {
+        "title": "Interpretation and Definitions",
+        "subsection1": {
+          "title": "Interpretation",
+          "content": "The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural."
+        },
+        "subsection2": {
+          "title": "Definitions",
+          "content": "For the purposes of this Privacy Policy:",
+          "list": {
+            "account": "Account means a unique account created for You to access our Service.",
+            "affiliate": "Affiliate means an entity under common control with a party.",
+            "company": "Company refers to spider solitaire game.",
+            "cookies": "Cookies are small files placed on Your device by a website.",
+            "country": "Country refers to: New York, United States.",
+            "device": "Device means any device that can access the Service.",
+            "personalData": "Personal Data is any information related to an individual.",
+            "service": "Service refers to the Website.",
+            "website": "Website refers to spider solitaire game, accessible from http://www.247solitairegames.com.",
+            "you": "You means the individual or entity accessing the Service."
+          }
+        }
+      },
+      "section3": {
+        "title": "Collecting and Using Your Personal Data",
+        "subsection1": {
+          "title": "Types of Data Collected",
+          "personalData": {
+            "title": "Personal Data",
+            "content": "While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:",
+            "list": ["Email address", "Usage Data"]
+          }
+        }
+      },
+      "section4": {
+        "title": "Contact Us",
+        "content": "If you have any questions about this Privacy Policy, You can contact us:",
+        "list": ["By email: contact@247solitairegames.com"]
+      }
+    }
+  },
+  "terms": {
+    "title": "Terms and Conditions",
+    "lastUpdated": "Last updated: September 26, 2025",
+    "intro": "Please read these terms and conditions carefully before using Our Service.",
+    "sections": {
+      "section1": {
+        "title": "Interpretation and Definitions",
+        "subsection1": {
+          "title": "Interpretation",
+          "content": "The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural."
+        },
+        "subsection2": {
+          "title": "Definitions",
+          "content": "For the purposes of these Terms and Conditions:",
+          "list": {
+            "affiliate": "Affiliate means an entity under common control with a party.",
+            "country": "Country refers to: New York, United States.",
+            "company": "Company refers to spider solitaire game.",
+            "device": "Device means any device that can access the Service.",
+            "service": "Service refers to the Website.",
+            "termsAndConditions": "Terms and Conditions mean these Terms that form the agreement between You and the Company.",
+            "thirdPartySocialMediaService": "Third-party Social Media Service means any third-party services or content included in the Service.",
+            "website": "Website refers to spider solitaire game, accessible from http://www.247solitairegames.com.",
+            "you": "You means the individual or entity accessing the Service."
+          }
+        }
+      },
+      "section2": {
+        "title": "Acknowledgment",
+        "content1": "These are the Terms and Conditions governing the use of this Service and the agreement that operates between You and the Company. Your access to and use of the Service is conditioned on Your acceptance of and compliance with these Terms and Conditions.",
+        "content2": "By accessing or using the Service You agree to be bound by these Terms. If You disagree with any part, You may not access the Service.",
+        "content3": "You represent that you are over the age of 18.",
+        "content4": "Your access to and use of the Service is also conditioned on Your acceptance of our Privacy Policy."
+      },
+      "section3": {
+        "title": "Links to Other Websites",
+        "content": "Our Service may contain links to third-party websites that are not owned or controlled by the Company. We assume no responsibility for their content or practices. You should read their terms and privacy policies."
+      },
+      "section4": {
+        "title": "Termination",
+        "content": "We may terminate or suspend Your access immediately, without prior notice, for any reason, including breach of these Terms. Upon termination, Your right to use the Service will cease immediately."
+      },
+      "section5": {
+        "title": "Limitation of Liability",
+        "content": "The liability of the Company shall be limited to the amount actually paid by You through the Service or 100 USD if You haven’t purchased anything. We are not liable for indirect, incidental, or consequential damages."
+      },
+      "section6": {
+        "title": "\"AS IS\" and \"AS AVAILABLE\" Disclaimer",
+        "content": "The Service is provided to You \"AS IS\" and \"AS AVAILABLE\" without warranties of any kind. We do not guarantee uninterrupted operation, accuracy of information, or that the Service is free of harmful components."
+      },
+      "section7": {
+        "title": "Governing Law",
+        "content": "The laws of the Country, excluding conflicts of law rules, shall govern this Terms and Your use of the Service."
+      },
+      "section8": {
+        "title": "Disputes Resolution",
+        "content": "If You have any dispute, You agree to first try to resolve it informally by contacting the Company."
+      },
+      "section9": {
+        "title": "Severability and Waiver",
+        "subsection1": {
+          "title": "Severability",
+          "content": "If any provision is held invalid, it will be interpreted to accomplish its purpose as much as possible."
+        },
+        "subsection2": {
+          "title": "Waiver",
+          "content": "Failure to exercise a right shall not constitute a waiver of any further rights."
+        }
+      },
+      "section10": {
+        "title": "Changes to These Terms and Conditions",
+        "content": "We reserve the right to modify or replace these Terms at any time. By continuing to use the Service after changes, You agree to the new Terms."
+      },
+      "section11": {
+        "title": "Contact Us",
+        "content": "If you have any questions about these Terms, You can contact us:",
+        "list": ["By email: contact@247solitairegames.com"]
+      }
+    }
+  },
+  "home": {
+    "title": "Welcome to Spider Solitaire",
+    "description": "Play the classic card game online for free."
+  }
+}

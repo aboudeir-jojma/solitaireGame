@@ -1,0 +1,236 @@
+{
+  "common": {
+    "nav": {
+      "about": "À propos",
+      "privacy": "Confidentialité",
+      "terms": "Conditions",
+      "home": "Accueil",
+      "language": "Langue",
+      "english": "Anglais",
+      "french": "Français"
+    }
+  },
+  "about": {
+    "title": "Jouez à Spider Solitaire en ligne gratuitement !",
+    "sections": {
+      "section1": {
+        "title": "Découvrez Spider Solitaire",
+        "content": "Découvrez la magie de Spider Solitaire, un jeu de cartes amusant que vous pouvez jouer directement dans votre navigateur. Arrangez les cartes du Roi à l’As et créez de belles séquences, comme une araignée tissant sa toile."
+      },
+      "section2": {
+        "title": "Une expérience captivante",
+        "content": "Parcourez des cartes mélangées, planifiez vos mouvements soigneusement et profitez du moment excitant où une séquence entière disparaît. Avec de simples clics, des animations ludiques et des effets sonores, chaque niveau devient un défi passionnant."
+      },
+      "section3": {
+        "title": "Parfait pour les enfants",
+        "content": "Spider Solitaire est un excellent moyen pour les enfants de stimuler leur cerveau, se détendre après l’école et s’amuser sans fin."
+      },
+      "section4": {
+        "title": "Qu’est-ce que Spider Solitaire ?",
+        "content": "Spider Solitaire est un jeu utilisant deux jeux de cartes complets. L’objectif est de créer huit piles parfaites du Roi à l’As. Vous commencez par dix colonnes et déplacez les cartes pour révéler celles cachées et former des suites complètes."
+      },
+      "section5": {
+        "title": "Stratégie et patience",
+        "content": "Avec des commandes simples de glisser-déposer, les enfants peuvent développer stratégie et patience. Choisir quelles cartes révéler en premier et gérer les colonnes vides rend le défi encore plus intéressant."
+      },
+      "section6": {
+        "title": "Pourquoi choisir Spider Solitaire ?",
+        "content": "Jouez à Spider Solitaire gratuitement, directement en ligne, sans téléchargement. Le jeu propose des illustrations colorées, plusieurs modes, et aide à améliorer la mémoire et la planification."
+      },
+      "section7": {
+        "title": "Comment jouer",
+        "content": "Le but est de créer huit séquences parfaites de cartes du Roi à l’As dans la même couleur. Préparez le paquet, déplacez vos cartes, terminez les suites, distribuez des cartes supplémentaires et gagnez la partie !",
+        "content2": "Continuez à empiler et à distribuer jusqu’à ce que toutes les huit suites soient complètes."
+      },
+      "section8": {
+        "title": "Conseils pour jeunes champions",
+        "content": "Essayez de libérer une pile vide le plus tôt possible. Concentrez-vous sur les groupes de même couleur et planifiez vos mouvements à l’avance.",
+        "content2": "Cherchez les cartes basses tôt, retournez les piles cachées et déplacez des séquences entières quand c’est possible."
+      },
+      "section9": {
+        "title": "Commandes simples",
+        "content": "Cliquez et glissez les cartes, utilisez les flèches pour naviguer, appuyez sur la barre d’espace pour distribuer de nouvelles cartes et sur Z pour annuler un mouvement."
+      },
+      "section10": {
+        "title": "Caractéristiques",
+        "content": "Profitez de cartes colorées, d’animations fluides et d’effets sonores. Les niveaux deviennent plus difficiles au fur et à mesure, ce qui aide à améliorer mémoire et stratégie."
+      },
+      "section11": {
+        "title": "Version débloquée",
+        "content": "Spider Solitaire débloqué fonctionne dans n’importe quel navigateur, sans téléchargement ni mot de passe. Idéal pour jouer à l’école, à la maison ou à la bibliothèque."
+      },
+      "section12": {
+        "title": "Aventure Spider Solitaire",
+        "content": "Explorez l’univers de Spider Solitaire en ligne, sans téléchargement. Organisez les cartes du Roi à l’As, améliorez votre concentration et vos compétences en résolution de problèmes."
+      },
+      "section13": {
+        "title": "Compatibilité des plateformes",
+        "content": "Spider Solitaire fonctionne sur ordinateur, tablette et mobile. La mise en page s’adapte automatiquement à tout écran pour une expérience fluide et rapide."
+      },
+      "section14": {
+        "title": "Découvrez d’autres jeux",
+        "content": "Si vous aimez Spider Solitaire, essayez Jungle Stack, Magic Suit Match, Time Tower Cards, Pirate’s Treasure Deal et Candy Kingdom Klondike. Chacun propose des cartes colorées, des héros amusants et des défis passionnants."
+      },
+      "section15": {
+        "title": "Questions fréquentes",
+        "questions": {
+          "q1": {
+            "question": "Dois-je installer quelque chose ?",
+            "answer": "Non, il suffit de visiter notre site avec un navigateur et vous pouvez jouer immédiatement."
+          },
+          "q2": {
+            "question": "Puis-je jouer sur téléphone ou tablette ?",
+            "answer": "Oui, Spider Solitaire fonctionne sur smartphone, tablette et ordinateur."
+          },
+          "q3": {
+            "question": "Dois-je payer pour jouer ?",
+            "answer": "Non, Spider Solitaire est totalement gratuit, sans frais ni achats intégrés."
+          },
+          "q4": {
+            "question": "Le jeu convient-il aux enfants ?",
+            "answer": "Oui, il est facile à apprendre pour les enfants et propose aussi un défi stimulant pour les plus grands."
+          },
+          "q5": {
+            "question": "Comment commencer une partie ?",
+            "answer": "Disposez les cartes, empilez-les du Roi à l’As dans chaque couleur et éliminez toutes les piles pour gagner."
+          }
+        }
+      }
+    }
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "lastUpdated": "Dernière mise à jour : 25 septembre 2025",
+    "intro": "Veuillez lire attentivement ces termes et conditions avant d'utiliser Notre Service.",
+    "sections": {
+      "section1": {
+        "title": "Introduction",
+        "content1": "Cette Politique de confidentialité décrit Nos politiques et procédures concernant la collecte, l'utilisation et la divulgation de Vos informations lorsque Vous utilisez le Service et Vous informe sur Vos droits en matière de confidentialité et sur la manière dont la loi Vous protège.",
+        "content2": "Nous utilisons Vos données personnelles pour fournir et améliorer le Service. En utilisant le Service, Vous acceptez la collecte et l'utilisation des informations conformément à cette Politique de confidentialité."
+      },
+      "section2": {
+        "title": "Interprétation et définitions",
+        "subsection1": {
+          "title": "Interprétation",
+          "content": "Les mots dont la lettre initiale est en majuscule ont des significations définies dans les conditions suivantes. Les définitions suivantes auront la même signification qu'elles apparaissent au singulier ou au pluriel."
+        },
+        "subsection2": {
+          "title": "Définitions",
+          "content": "Aux fins de cette Politique de confidentialité :",
+          "list": {
+            "account": "Compte signifie un compte unique créé pour Vous permettre d'accéder à notre Service.",
+            "affiliate": "Affilié signifie une entité sous contrôle commun avec une partie.",
+            "company": "Société fait référence à spider solitaire game.",
+            "cookies": "Cookies sont de petits fichiers placés sur Votre appareil par un site web.",
+            "country": "Pays fait référence à : New York, États-Unis.",
+            "device": "Appareil signifie tout appareil pouvant accéder au Service.",
+            "personalData": "Données personnelles sont toute information relative à un individu.",
+            "service": "Service fait référence au Site web.",
+            "website": "Site web fait référence à spider solitaire game, accessible depuis http://www.247solitairegames.com.",
+            "you": "Vous signifie l'individu ou l'entité accédant au Service."
+          }
+        }
+      },
+      "section3": {
+        "title": "Collecte et utilisation de Vos données personnelles",
+        "subsection1": {
+          "title": "Types de données collectées",
+          "personalData": {
+            "title": "Données personnelles",
+            "content": "Lors de l'utilisation de Notre Service, Nous pouvons Vous demander de Nous fournir certaines informations d'identification personnelle qui peuvent être utilisées pour Vous contacter ou Vous identifier. Les informations d'identification personnelle peuvent inclure, sans s'y limiter :",
+            "list": ["Adresse e-mail", "Données d'utilisation"]
+          }
+        }
+      },
+      "section4": {
+        "title": "Contactez-nous",
+        "content": "Si Vous avez des questions concernant cette Politique de confidentialité, Vous pouvez nous contacter :",
+        "list": ["Par e-mail : contact@247solitairegames.com"]
+      }
+    }
+  },
+  "terms": {
+    "title": "Termes et conditions",
+    "lastUpdated": "Dernière mise à jour : 26 septembre 2025",
+    "intro": "Veuillez lire attentivement ces termes et conditions avant d'utiliser Notre Service.",
+    "sections": {
+      "section1": {
+        "title": "Interprétation et définitions",
+        "subsection1": {
+          "title": "Interprétation",
+          "content": "Les mots dont la lettre initiale est en majuscule ont des significations définies dans les conditions suivantes. Les définitions suivantes auront la même signification qu'elles apparaissent au singulier ou au pluriel."
+        },
+        "subsection2": {
+          "title": "Définitions",
+          "content": "Aux fins de ces Termes et Conditions :",
+          "list": {
+            "affiliate": "Affilié signifie une entité sous contrôle commun avec une partie.",
+            "country": "Pays fait référence à : New York, États-Unis.",
+            "company": "Société fait référence à spider solitaire game.",
+            "device": "Appareil signifie tout appareil pouvant accéder au Service.",
+            "service": "Service fait référence au Site web.",
+            "termsAndConditions": "Termes et Conditions signifient ces Termes qui forment l'accord entre Vous et la Société.",
+            "thirdPartySocialMediaService": "Service de médias sociaux tiers signifie tout service ou contenu tiers inclus dans le Service.",
+            "website": "Site web fait référence à spider solitaire game, accessible depuis http://www.247solitairegames.com.",
+            "you": "Vous signifie l'individu ou l'entité accédant au Service."
+          }
+        }
+      },
+      "section2": {
+        "title": "Reconnaissance",
+        "content1": "Ce sont les Termes et Conditions régissant l'utilisation de ce Service et l'accord qui opère entre Vous et la Société. Votre accès à et utilisation du Service est conditionné par Votre acceptation et conformité avec ces Termes et Conditions.",
+        "content2": "En accédant ou utilisant le Service Vous acceptez d'être lié par ces Termes. Si Vous n'êtes pas d'accord avec une partie quelconque, Vous ne pouvez pas accéder au Service.",
+        "content3": "Vous déclarez avoir plus de 18 ans.",
+        "content4": "Votre accès à et utilisation du Service est également conditionné par Votre acceptation de notre Politique de confidentialité."
+      },
+      "section3": {
+        "title": "Liens vers d'autres sites web",
+        "content": "Notre Service peut contenir des liens vers des sites web tiers qui ne sont pas détenus ou contrôlés par la Société. Nous n'assumons aucune responsabilité pour leur contenu ou pratiques. Vous devriez lire leurs termes et politiques de confidentialité."
+      },
+      "section4": {
+        "title": "Résiliation",
+        "content": "Nous pouvons résilier ou suspendre Votre accès immédiatement, sans préavis, pour toute raison, y compris la violation de ces Termes. Lors de la résiliation, Votre droit d'utiliser le Service cessera immédiatement."
+      },
+      "section5": {
+        "title": "Limitation de responsabilité",
+        "content": "La responsabilité de la Société sera limitée au montant effectivement payé par Vous via le Service ou 100 USD si Vous n'avez rien acheté. Nous ne sommes pas responsables des dommages indirects, accessoires ou consécutifs."
+      },
+      "section6": {
+        "title": "Clause de non-responsabilité \"TEL QUEL\" et \"TEL QUE DISPONIBLE\"",
+        "content": "Le Service Vous est fourni \"TEL QUEL\" et \"TEL QUE DISPONIBLE\" sans garanties d'aucune sorte. Nous ne garantissons pas le fonctionnement ininterrompu, l'exactitude des informations, ou que le Service est exempt de composants nuisibles."
+      },
+      "section7": {
+        "title": "Loi applicable",
+        "content": "Les lois du Pays, à l'exclusion des règles de conflit de lois, régiront ces Termes et Votre utilisation du Service."
+      },
+      "section8": {
+        "title": "Résolution des litiges",
+        "content": "Si Vous avez un litige quelconque, Vous acceptez d'abord d'essayer de le résoudre informellement en contactant la Société."
+      },
+      "section9": {
+        "title": "Séparabilité et renonciation",
+        "subsection1": {
+          "title": "Séparabilité",
+          "content": "Si une disposition est jugée invalide, elle sera interprétée pour accomplir son objectif autant que possible."
+        },
+        "subsection2": {
+          "title": "Renonciation",
+          "content": "Le fait de ne pas exercer un droit ne constituera pas une renonciation à tout droit ultérieur."
+        }
+      },
+      "section10": {
+        "title": "Modifications de ces Termes et Conditions",
+        "content": "Nous nous réservons le droit de modifier ou remplacer ces Termes à tout moment. En continuant à utiliser le Service après les modifications, Vous acceptez les nouveaux Termes."
+      },
+      "section11": {
+        "title": "Contactez-nous",
+        "content": "Si Vous avez des questions concernant ces Termes, Vous pouvez nous contacter :",
+        "list": ["Par e-mail : contact@247solitairegames.com"]
+      }
+    }
+  },
+  "home": {
+    "title": "Bienvenue à Spider Solitaire",
+    "description": "Jouez au jeu de cartes classique en ligne gratuitement."
+  }
+}
