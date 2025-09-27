@@ -1,4 +1,4 @@
-# TODO: Fix Translation Issue in Game Descriptions
+    # TODO: Fix Translation Issue in Game Descriptions
 
 ## Steps to Complete:
 
@@ -8,6 +8,6 @@
 
 - [x] Step 3: Update public/locales/fr/global.json - Add "uno" and "ludo-king" entries under the "games" section with French titles and descriptions (using the hardcoded French as base).
 
-- [ ] Step 4: Test the changes - Run `npm run dev`, switch languages in the browser, and verify descriptions translate correctly.
+- [x] Step 4: Test the changes - Run `npm run dev`, switch languages in the browser, and verify descriptions translate correctly.
 
 After completing all steps, mark as done and use attempt_completion.
