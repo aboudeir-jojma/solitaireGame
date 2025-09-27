@@ -259,6 +259,14 @@
     "freecell": {
       "title": "FreeCell Solitaire",
       "description": "Use four free cells to strategically move cards and build foundation piles."
+    },
+    "uno": {
+      "title": "Uno",
+      "description": "Get rid of your cards by matching colors or numbers, with special cards to spice up the game."
+    },
+    "ludo-king": {
+      "title": "Ludo King",
+      "description": "Have an exciting race with your pawns to the finish by rolling the dice, a classic game of strategy and luck."
     }
   }
 }

@@ -259,6 +259,14 @@
     "freecell": {
       "title": "FreeCell Solitaire",
       "description": "Utilisez quatre cellules libres pour déplacer stratégiquement les cartes et construire des piles de fond."
+    },
+    "uno": {
+      "title": "Uno",
+      "description": "Débarrassez-vous de vos cartes en associant couleurs ou chiffres, avec des cartes spéciales pour pimenter la partie."
+    },
+    "ludo-king": {
+      "title": "Ludo King",
+      "description": "Faites la course passionnante avec vos pions jusqu’à l’arrivée en lançant le dé, un jeu classique de stratégie et de chance."
     }
   }
 }
