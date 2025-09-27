@@ -45,7 +45,7 @@ export default function Navigation() {
     { code: "fr", label: t('common.nav.french'), icon: Globe },
   ];
 
-  const navOpacity = scrollY > 50 ? 'bg-green-900/80 backdrop-blur-md' : 'bg-green-900';
+  const navOpacity = scrollY > 50 ? 'bg-green-900/90 backdrop-blur-md' : 'bg-green-900';
 
   return (
     <nav className={`text-white shadow-lg fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${navOpacity}`}>
@@ -66,16 +66,16 @@ export default function Navigation() {
             aria-label="Toggle menu"
           >
             {isMenuOpen ? (
-              <X className="w-6 h-6" />
+              <X className="w-6 h-6 text-white" />
             ) : (
-              <Menu className="w-6 h-6" />
+              <Menu className="w-6 h-6 text-white" />
             )}
           </button>
         </div>
 
         {/* Dropdown menu */}
         {isMenuOpen && (
-          <div className="absolute top-full right-0 bg-green-900 border border-green-700 shadow-2xl z-40 w-56 rounded-lg mt-2 mr-2">
+          <div className="absolute top-full right-0 bg-green-900/95 border border-green-700 shadow-2xl z-40 w-56 rounded-lg mt-2 mr-2">
             <div className="py-3">
               <div className="flex flex-col">
                 {menuItems.map((item, index) => {
@@ -85,10 +85,10 @@ export default function Navigation() {
                       key={item.href}
                       href={item.href}
                       onClick={closeMenu}
-                      className="group flex items-center gap-4 px-5 py-3 hover:bg-gradient-to-r hover:from-green-600/20 hover:to-green-700/20 hover:text-green-300 transition-all duration-200 text-left border-l-4 border-transparent hover:border-green-500 hover:translate-x-1"
+                      className="group flex items-center gap-4 px-5 py-3 hover:bg-gradient-to-r hover:from-green-700 hover:to-green-800 hover:text-white transition-all duration-200 text-left border-l-4 border-transparent hover:border-green-300 hover:translate-x-1"
                     >
-                      <Icon className="w-5 h-5 flex-shrink-0 text-green-400 group-hover:text-green-300 transition-colors" />
-                      <span className="font-medium text-green-200 group-hover:text-white">{item.label}</span>
+                      <Icon className="w-5 h-5 flex-shrink-0 text-white group-hover:text-green-100 transition-colors" />
+                      <span className="font-medium text-white group-hover:text-green-50">{item.label}</span>
                     </Link>
                   );
                 })}
@@ -97,7 +97,7 @@ export default function Navigation() {
               {/* Language Switcher Section */}
               <div className="border-t border-green-700 mt-3 pt-3">
                 <div className="px-5 mb-2">
-                  <span className="text-xs font-semibold text-green-400 uppercase tracking-wider">
+                  <span className="text-xs font-semibold text-green-100 uppercase tracking-wider">
                     {t('common.nav.language')}
                   </span>
                 </div>
@@ -109,26 +109,26 @@ export default function Navigation() {
                       <button
                         key={item.code}
                         onClick={() => changeLanguage(item.code)}
-                        className={`group flex items-center gap-4 px-5 py-3 hover:bg-gradient-to-r hover:from-green-600/20 hover:to-green-700/20 hover:text-green-300 transition-all duration-200 text-left border-l-4 ${
+                        className={`group flex items-center gap-4 px-5 py-3 hover:bg-gradient-to-r hover:from-green-700 hover:to-green-800 hover:text-white transition-all duration-200 text-left border-l-4 ${
                           isActive
-                            ? 'border-green-500 bg-green-700/10 text-green-300'
-                            : 'border-transparent hover:border-green-500 hover:translate-x-1'
+                            ? 'border-green-300 bg-green-800 text-white'
+                            : 'border-transparent hover:border-green-300 hover:translate-x-1'
                         }`}
                       >
                         <Icon className={`w-5 h-5 flex-shrink-0 transition-colors ${
                           isActive
-                            ? 'text-green-300'
-                            : 'text-green-400 group-hover:text-green-300'
+                            ? 'text-white'
+                            : 'text-white group-hover:text-green-100'
                         }`} />
                         <span className={`font-medium ${
                           isActive
                             ? 'text-white'
-                            : 'text-green-200 group-hover:text-white'
+                            : 'text-white group-hover:text-green-50'
                         }`}>
                           {item.label}
                         </span>
                         {isActive && (
-                          <div className="ml-auto w-2 h-2 bg-green-500 rounded-full"></div>
+                          <div className="ml-auto w-2 h-2 bg-green-300 rounded-full"></div>
                         )}
                       </button>
                     );
@@ -137,7 +137,7 @@ export default function Navigation() {
               </div>
             </div>
             {/* Bottom glow effect */}
-            <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-green-500 to-transparent"></div>
+            <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-green-300 to-transparent"></div>
           </div>
         )}
       </div>

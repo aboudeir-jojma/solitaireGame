@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { Diamond } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
@@ -8,14 +9,14 @@ export default function Home() {
   const { t } = useTranslation("global");
 
   return (
-    <main className="flex flex-col min-h-screen w-full bg-gray-100 mt-16">
+    <main className="flex flex-col min-h-screen w-full bg-green-600">
       {/* Zone principale avec pubs */}
-      <div className="flex-1 flex justify-center items-center gap-4 p-4">
+      <div className="flex-1 w-full">
         {/* Jeu centré */}
-        <section className="flex-1 flex justify-center mt-6">
+        <section className="w-full">
           <iframe
             src="/game/index.html"
-            className="w-full max-w-5xl h-[85vh] border-0 shadow-lg rounded-lg"
+            className="w-full h-[85vh] border-0"
           ></iframe>
         </section>
       </div>

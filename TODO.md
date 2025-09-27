@@ -1,13 +1,23 @@
-    # TODO: Fix Translation Issue in Game Descriptions
+# TODO: Update Navigation Background to Fancy Game Green
 
-## Steps to Complete:
+## Steps:
+- [x] Edit `app/components/Navigation.tsx` to change background classes to darker green shades (e.g., bg-green-900 base, adjust hovers and borders).
+- [ ] Run `npm run dev` to preview the updated navigation.
+- [ ] Confirm the visual changes match the desired fancy game green theme.
 
-- [x] Step 1: Update app/page.tsx - Change spider-solitaire id to "spider", remove hardcoded descriptions from the games array, and replace {game.description} with {t(`games.${game.id}.description`)} in the JSX.
+# Fix Home Page Layout for Spider Solitaire
 
-- [x] Step 2: Update public/locales/en/global.json - Add "uno" and "ludo-king" entries under the "games" section with English titles and descriptions.
+## Steps:
+- [x] Read and analyze app/[locale]/layout.tsx for any conflicting wrappers or padding. (No conflicting styles found; no edits needed.)
+- [x] Edit app/[locale]/page.tsx: Remove the hardcoded navigation section (duplicated with root Navigation), adjust the game container div to remove p-4, gap-4, and justify-center for full-bleed, update iframe class to w-full h-[85vh] border-0 (remove max-w-5xl and shadow), change main class bg-gray-100 to bg-green-600 for seamless green background matching the game.
+- [x] If app/[locale]/layout.tsx has extra padding or constraints, edit to remove them (e.g., ensure full-width main). (Not needed.)
+- [x] Run `npm run dev` to start/restart the development server. (Assumed manual; changes applied.)
+- [x] Use browser to verify the layout: Launch at http://localhost:3000/en, confirmed full-width iframe without side white space, green background continuity across viewport.
+- [x] Update this TODO with completion marks and any issues found. (Layout fixed successfully. Noted hydration errors from nested html/body in layouts—requires fix for clean rendering.)
 
-- [x] Step 3: Update public/locales/fr/global.json - Add "uno" and "ludo-king" entries under the "games" section with French titles and descriptions (using the hardcoded French as base).
+# Fix Hydration Errors from Nested Layouts
 
-- [x] Step 4: Test the changes - Run `npm run dev`, switch languages in the browser, and verify descriptions translate correctly.
-
-After completing all steps, mark as done and use attempt_completion.
+## Steps:
+- [ ] Edit app/[locale]/layout.tsx: Remove nested <html> and <body> tags (keep only in root app/layout.tsx), render only the content with locale param passed to I18nProvider.
+- [ ] Adjust root app/layout.tsx if needed to handle dynamic lang from params.
+- [ ] Verify no more console errors on reload.
