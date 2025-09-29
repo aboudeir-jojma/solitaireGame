@@ -2,8 +2,6 @@
 
 import { useTranslation } from "react-i18next";
 
-export const dynamic = 'force-dynamic';
-
 export default function PrivacyPage() {
   const { t } = useTranslation('privacy');
 

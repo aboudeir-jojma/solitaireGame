@@ -1,2 +1,5 @@
-- [x] Update app/components/I18nProvider.tsx to accept locale prop and set i18n language
-- [x] Run build command to verify the TypeScript error is fixed
+- [x] Modify app/i18n.ts to use static resources from lib/locales/*.js
+- [x] Remove export const dynamic = 'force-dynamic' from app/[locale]/terms/page.tsx
+- [x] Remove export const dynamic = 'force-dynamic' from app/[locale]/about/page.tsx (no change needed)
+- [x] Remove export const dynamic = 'force-dynamic' from app/[locale]/privacy/page.tsx
+- [x] Run build command to test fixes - Build succeeded, static pages generated without timeouts

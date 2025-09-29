@@ -1,24 +1,35 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import HttpApi from 'i18next-http-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
+import enGlobal from '../lib/locales/en/global.js';
+import frGlobal from '../lib/locales/fr/global.js';
 
 i18n
-  .use(HttpApi)
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
     lng: undefined,
     fallbackLng: 'en',
     supportedLngs: ['en', 'fr'],
-    ns: ['global'],
+    ns: ['global', 'about', 'privacy', 'terms'],
     defaultNS: 'global',
+    resources: {
+      en: {
+        global: enGlobal,
+        about: enGlobal.about,
+        privacy: enGlobal.privacy,
+        terms: enGlobal.terms
+      },
+      fr: {
+        global: frGlobal,
+        about: frGlobal.about,
+        privacy: frGlobal.privacy,
+        terms: frGlobal.terms
+      }
+    },
     detection: {
       order: ['navigator'],
       caches: []
-    },
-    backend: {
-      loadPath: '/locales/{{lng}}/{{ns}}.json',
     },
     interpolation: {
       escapeValue: false,
