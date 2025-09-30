@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { useParams } from 'next/navigation';
+import { useParams, usePathname } from 'next/navigation';
 import { useTranslation } from "react-i18next";
 import { Car, Menu, X, Info, Shield, FileText, Mail, Globe } from "lucide-react";
 import { i18n } from '../i18n';
@@ -11,6 +11,7 @@ export default function Navigation() {
   const { t, i18n: i18nInstance } = useTranslation();
   const params = useParams();
   const activeLocale = typeof params?.locale === 'string' ? params.locale : i18n.language || 'en';
+  const pathname = usePathname();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrollY, setScrollY] = useState(0);
 
@@ -20,7 +21,16 @@ export default function Navigation() {
     };
 
     window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    const handleKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        setIsMenuOpen(false);
+      }
+    };
+    window.addEventListener('keydown', handleKey);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('keydown', handleKey);
+    };
   }, []);
 
   const toggleMenu = () => {
@@ -51,18 +61,18 @@ export default function Navigation() {
   const navOpacity = scrollY > 50 ? 'bg-green-900/90 backdrop-blur-md' : 'bg-green-900';
 
   return (
-    <nav className={`text-white shadow-lg fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${navOpacity}`}>
+    <nav className={`text-white shadow-lg fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${navOpacity} border-b border-green-800/60` }>
     <div className="max-w-7xl mx-auto px-4 py-2">
 
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-3 ml-18">
-            <Link href={`/${activeLocale}`} onClick={closeMenu}>
-              <img src="/logo.png" alt="Logo"  className="h-12 sm:h-13 md:h-16  w-auto max-w-[300px] object-contain" />
+            <Link href={`/${activeLocale}`} onClick={closeMenu} className="flex items-center">
+              <img src="/logo.png" alt="Logo"  className="h-12 sm:h-13 md:h-14  w-auto max-w-[300px] object-contain" />
             </Link>
           </div>
 
-          {/* Hamburger button */}
+          {/* Hamburger button (always visible) */}
           <button
             onClick={toggleMenu}
             className="p-2 rounded-lg hover:bg-green-800 transition-colors z-50"
@@ -76,19 +86,31 @@ export default function Navigation() {
           </button>
         </div>
 
+        {/* Backdrop */}
+        {isMenuOpen && (
+          <div
+            className="fixed inset-0 z-30"
+            onClick={closeMenu}
+          />
+        )}
+
         {/* Dropdown menu */}
         {isMenuOpen && (
-          <div className="absolute top-full right-0 bg-green-900/95 border border-green-700 shadow-2xl z-40 w-56 rounded-lg mt-2 mr-2">
+          <div
+            className="absolute top-full right-0 bg-green-900/95 border border-green-700 shadow-2xl z-40 w-56 rounded-lg mt-2 mr-2"
+            onClick={(e) => e.stopPropagation()}
+          >
             <div className="py-3">
               <div className="flex flex-col">
                 {menuItems.map((item, index) => {
                   const Icon = item.icon;
+                  const isActive = pathname === item.href;
                   return (
                     <Link
                       key={item.href}
                       href={item.href}
                       onClick={closeMenu}
-                      className="group flex items-center gap-4 px-5 py-3 hover:bg-gradient-to-r hover:from-green-700 hover:to-green-800 hover:text-white transition-all duration-200 text-left border-l-4 border-transparent hover:border-green-300 hover:translate-x-1"
+                      className={`group flex items-center gap-4 px-5 py-3 transition-all duration-200 text-left border-l-4 ${isActive ? 'bg-green-800 text-white border-green-300' : 'border-transparent hover:bg-gradient-to-r hover:from-green-700 hover:to-green-800 hover:text-white hover:border-green-300 hover:translate-x-1'}`}
                     >
                       <Icon className="w-5 h-5 flex-shrink-0 text-white group-hover:text-green-100 transition-colors" />
                       <span className="font-medium text-white group-hover:text-green-50">{item.label}</span>
