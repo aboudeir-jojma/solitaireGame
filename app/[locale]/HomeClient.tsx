@@ -104,7 +104,31 @@ export default function HomeClient() {
         </div>
       </section>
 
-      
+<section className="relative py-20 px-6 bg-gradient-to-r from-green-100 via-green-50 to-white rounded-lg shadow-lg overflow-hidden">
+  {/* Cercles décoratifs foncés */}
+  <div className="absolute top-10 left-10 w-40 h-40 bg-green-700/40 rounded-full blur-3xl z-0"></div>
+  <div className="absolute bottom-20 right-20 w-56 h-56 bg-emerald-600/50 rounded-full blur-3xl z-0"></div>
+  <div className="absolute top-1/2 left-1/3 w-32 h-32 bg-green-800/30 rounded-full blur-2xl z-0"></div>
+  <div className="absolute bottom-10 left-1/4 w-48 h-48 bg-green-900/40 rounded-full blur-2xl z-0"></div>
+
+  {/* Nouveaux cercles */}
+  <div className="absolute top-5 right-1/4 w-36 h-36 bg-emerald-700/40 rounded-full blur-2xl z-0"></div>
+  <div className="absolute bottom-5 left-1/5 w-28 h-28 bg-green-600/50 rounded-full blur-2xl z-0"></div>
+
+  {/* Image centrée */}
+  <div className="max-w-5xl mx-auto relative z-10 flex justify-center items-center">
+    <img
+      src="/spider-solitaire-online2.png"
+      alt="Spider Solitaire"
+      className="w-full max-w-2xl rounded-lg shadow-2xl"
+    />
+  </div>
+</section>
+
+
+
+
+
     </main>
   );
 }
