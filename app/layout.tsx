@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Spider Solitaire games",
-  description: "Play Solitaire games online for free – spider solitaire games",
+  title: "Spider Solitaire Games",
+  description: "Play Solitaire games online for free – Spider Solitaire Games",
 };
 
 export default function RootLayout({
