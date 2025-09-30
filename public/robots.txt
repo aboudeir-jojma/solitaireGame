@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://247solitairegames.com
+
+# Sitemaps
+Sitemap: https://247solitairegames.com/sitemap.xml
