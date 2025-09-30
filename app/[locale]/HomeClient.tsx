@@ -11,7 +11,7 @@ export default function HomeClient() {
 
   return (
     <main className="flex flex-col min-h-screen w-full bg-gray-100 mt-16">
-      <div className="flex-1 flex justify-center items-center gap-4 p-4">
+      <div className="relative py-20 px-6 bg-gradient-to-r from-green-100 via-green-50 to-white rounded-lg shadow-lg">
         <section className="flex-1 flex justify-center mt-6">
           <iframe
             src="/game/index.html"
@@ -20,7 +20,7 @@ export default function HomeClient() {
         </section>
       </div>
 
-      <section className="relative py-16 px-6 mt-10">
+      <section className="relative py-20 px-6 bg-gradient-to-r from-green-100 via-green-50 to-white rounded-lg shadow-lg">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl font-extrabold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-emerald-400">
             {t("home.title") || "Popular Games"}
@@ -63,7 +63,7 @@ export default function HomeClient() {
         </div>
       </section>
 
-      <section className="relative py-20 px-6 bg-gradient-to-b from-green-50 to-white">
+      <section className="relative py-20 px-6 bg-gradient-to-r from-green-100 via-green-50 to-white rounded-lg shadow-lg">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl font-extrabold text-gray-900 text-center mb-10">
             {t("home.section2.title")}
@@ -91,16 +91,20 @@ export default function HomeClient() {
                   <li key={index}>{item}</li>
                 ))}
               </ul>
+              <div className="mt-8 flex ">
               <Link
                 href={`/${activeLocale}`}
-                className="mt-6 inline-block bg-green-600 text-white px-6 py-3 rounded-lg shadow hover:bg-green-700 transition-all duration-300"
+               className="bg-gradient-to-r from-green-600 to-emerald-500 text-white px-8 py-3 rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
               >
                 {t("home.section2.playNow")}
               </Link>
+              </div>
             </div>
           </div>
         </div>
       </section>
+
+      
     </main>
   );
 }

@@ -245,6 +245,11 @@
         "✨ Graphismes colorés, animations fluides et défis progressifs."
       ],
       "playNow": "Jouer maintenant"
+    },
+    "newSection": {
+      "title": "Découvrez Plus de Jeux",
+      "description": "Explorez une variété de jeux passionnants qui défient votre esprit et offrent un divertissement sans fin. Des jeux de cartes classiques aux twists modernes, trouvez votre prochain passe-temps préféré.",
+      "exploreNow": "Explorer Maintenant"
     }
   },
   "games": {

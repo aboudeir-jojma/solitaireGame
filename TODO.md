@@ -1,5 +1,6 @@
-- [x] Modify app/i18n.ts to use static resources from lib/locales/*.js
-- [x] Remove export const dynamic = 'force-dynamic' from app/[locale]/terms/page.tsx
-- [x] Remove export const dynamic = 'force-dynamic' from app/[locale]/about/page.tsx (no change needed)
-- [x] Remove export const dynamic = 'force-dynamic' from app/[locale]/privacy/page.tsx
-- [x] Run build command to test fixes - Build succeeded, static pages generated without timeouts
+# TODO for Adding New Themed Section to Home Page
+
+- [ ] Update `app/[locale]/HomeClient.tsx` to add a new themed section with placeholder content.
+- [ ] Add new translation keys for the section title and description in `public/locales/en/global.json`.
+- [ ] Add new translation keys for the section title and description in `public/locales/fr/global.json`.
+- [ ] Test the home page to verify the new section renders correctly with theme styles and localized text.

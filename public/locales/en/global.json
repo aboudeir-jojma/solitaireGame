@@ -245,6 +245,11 @@
         "✨ Colorful graphics, smooth animations and progressive challenges."
       ],
       "playNow": "Play Now"
+    },
+    "newSection": {
+      "title": "Discover More Games",
+      "description": "Explore a variety of exciting games that challenge your mind and provide endless entertainment. From classic card games to modern twists, find your next favorite pastime.",
+      "exploreNow": "Explore Now"
     }
   },
   "games": {
