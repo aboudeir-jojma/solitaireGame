@@ -166,3 +166,4 @@ export default function AboutPage() {
     </div>
   );
 }
+// generateStaticParams is defined in app/[locale]/layout.tsx

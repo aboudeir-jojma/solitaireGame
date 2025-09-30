@@ -2,7 +2,7 @@
 
 import { useTranslation } from "react-i18next";
 
-export default function TermsPage() {
+export default function TermsClient() {
   const { t } = useTranslation();
 
   return (
@@ -134,3 +134,5 @@ export default function TermsPage() {
     </div>
   );
 }
+
+

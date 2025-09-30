@@ -84,3 +84,4 @@ export default function PrivacyPage() {
     </div>
   );
 }
+// generateStaticParams is defined in app/[locale]/layout.tsx

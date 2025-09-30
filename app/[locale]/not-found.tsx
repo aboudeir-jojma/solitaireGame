@@ -2,7 +2,7 @@
 
 import { useTranslation } from "react-i18next";
 
-export const dynamic = 'force-dynamic';
+export const dynamic = 'error';
 
 export default function NotFound() {
   const { t } = useTranslation();

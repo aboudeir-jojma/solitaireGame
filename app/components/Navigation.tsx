@@ -2,12 +2,15 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import { useParams } from 'next/navigation';
 import { useTranslation } from "react-i18next";
 import { Car, Menu, X, Info, Shield, FileText, Mail, Globe } from "lucide-react";
 import { i18n } from '../i18n';
 
 export default function Navigation() {
   const { t, i18n: i18nInstance } = useTranslation();
+  const params = useParams();
+  const activeLocale = typeof params?.locale === 'string' ? params.locale : i18n.language || 'en';
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrollY, setScrollY] = useState(0);
 
@@ -34,10 +37,10 @@ export default function Navigation() {
   };
 
   const menuItems = [
-    { href: "/about", label: t('common.nav.about'), icon: Info },
-    { href: "/privacy", label: t('common.nav.privacy'), icon: Shield },
-    { href: "/terms", label: t('common.nav.terms'), icon: FileText },
-    { href: "/", label: t('common.nav.home'), icon: Car },
+    { href: `/${activeLocale}/about`, label: t('common.nav.about'), icon: Info },
+    { href: `/${activeLocale}/privacy`, label: t('common.nav.privacy'), icon: Shield },
+    { href: `/${activeLocale}/terms`, label: t('common.nav.terms'), icon: FileText },
+    { href: `/${activeLocale}`, label: t('common.nav.home'), icon: Car },
   ];
 
   const languageItems = [
@@ -54,7 +57,7 @@ export default function Navigation() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-3 ml-18">
-            <Link href="/" onClick={closeMenu}>
+            <Link href={`/${activeLocale}`} onClick={closeMenu}>
               <img src="/logo.png" alt="Logo"  className="h-12 sm:h-13 md:h-16  w-auto max-w-[300px] object-contain" />
             </Link>
           </div>

@@ -1,17 +1,20 @@
 "use client";
 
 import Link from "next/link";
+import { useParams } from 'next/navigation';
 import { useTranslation } from "react-i18next";
 import { Info, Shield, FileText, Facebook, Twitter, Instagram, Linkedin, Globe } from "lucide-react";
 import { i18n } from '../i18n';
 
 export default function Footer() {
   const { t } = useTranslation();
+  const params = useParams();
+  const activeLocale = typeof params?.locale === 'string' ? params.locale : 'en';
 
   const footerLinks = [
-    { href: "/about", label: t('common.nav.about'), icon: Info },
-    { href: "/privacy", label: t('common.nav.privacy'), icon: Shield },
-    { href: "/terms", label: t('common.nav.terms'), icon: FileText },
+    { href: `/${activeLocale}/about`, label: t('common.nav.about'), icon: Info },
+    { href: `/${activeLocale}/privacy`, label: t('common.nav.privacy'), icon: Shield },
+    { href: `/${activeLocale}/terms`, label: t('common.nav.terms'), icon: FileText },
   ];
 
   const socialLinks = [
@@ -27,7 +30,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <Link href="/">
+            <Link href={`/${activeLocale}`}>
               <img src="/logo.png" alt="Logo" className="h-10 w-auto object-contain" />
             </Link>
           </div>
