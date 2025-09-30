@@ -10,7 +10,7 @@ export default function HomeClient() {
   const activeLocale = typeof params?.locale === 'string' ? params.locale : 'en';
 
   return (
-    <main className="flex flex-col min-h-screen w-full bg-gray-100 mt-16">
+    <main className="flex flex-col min-h-screen w-full bg-gray-100">
       <div className="relative py-20 px-6 bg-gradient-to-r from-green-100 via-green-50 to-white rounded-lg shadow-lg">
         <section className="flex-1 flex justify-center mt-6">
           <iframe
