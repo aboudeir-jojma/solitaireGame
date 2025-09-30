@@ -28,9 +28,9 @@ export default function HomeClient() {
 
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { id: "uno", image: "/uno.jpg", link: "https://www.tmdisplay.com/fr/game/Uno" },
-              { id: "spider", image: "/spider.jpg", link: "https://www.tmdisplay.com/fr/game/spider-solitaire" },
-              { id: "ludo-king", image: "/ludo-king.png", link: "https://www.tmdisplay.com/fr/game/ludo-king" },
+              { id: "uno", image: "/uno.jpg", link: "https://www.tmdisplay.com/en/game/Uno" },
+              { id: "spider", image: "/spider.jpg", link: "https://www.tmdisplay.com/en/game/spider-solitaire" },
+              { id: "ludo-king", image: "/ludo-king.png", link: "https://www.tmdisplay.com/en/game/ludo-king" },
             ].map((game) => (
               <div
                 key={game.id}
