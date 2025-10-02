@@ -118,7 +118,7 @@ export default function HomeClient() {
   {/* Image centrée */}
   <div className="max-w-5xl mx-auto relative z-10 flex justify-center items-center">
     <img
-      src="/spider-solitaire-online2.png"
+      src="/spider&solitaire.jpg"
       alt="Spider Solitaire"
       className="w-full max-w-2xl rounded-lg shadow-2xl"
     />
