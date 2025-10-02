@@ -75,7 +75,7 @@ export default function HomeClient() {
           <div className="grid md:grid-cols-2 gap-10 items-center">
             <div className="flex justify-center">
               <img
-                src="/spider.jpg"
+                src="/SPIDER-SOLITAIRE-1.jpg"
                 alt="Spider Solitaire"
                 className="w-80 h-80 object-cover rounded-xl shadow-lg border border-gray-200"
               />
