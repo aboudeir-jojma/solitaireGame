@@ -120,7 +120,7 @@ export default function HomeClient() {
     <img
       src="/spider&solitaire.jpg"
       alt="Spider Solitaire"
-      className="w-full max-w-2xl rounded-lg shadow-2xl"
+      className="w-full max-w-xl rounded-lg shadow-xl"
     />
   </div>
 </section>
