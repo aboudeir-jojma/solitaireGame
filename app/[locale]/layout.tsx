@@ -18,6 +18,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Spider Solitaire Games",
   description: "Spider Solitaire Games – Play online for free",
+  keywords: ["spider solitaire", "solitaire games", "online card games", "herder cripter"],
 };
 
 export function generateStaticParams() {

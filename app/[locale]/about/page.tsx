@@ -13,7 +13,7 @@ export default function AboutPage() {
             {t('title')}
           </h1>
 
-          {/* Section 1 */}
+          {/* Section 1 1*/}
           <div className="bg-blue-50 p-6 rounded-lg">
             <h3 className="text-2xl font-semibold text-blue-800 mb-3">{t('sections.section1.title')}</h3>
             <p className="text-blue-700">
